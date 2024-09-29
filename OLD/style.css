@@ -105,16 +105,40 @@
     padding-bottom: 0;
 }
 
+/*=================================*/
+/*=================================*/
+/*=================================*/
 
-.long-name {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
-
-.three-line-name {
+.go {
+    grid-column: 11;
+    grid-row: 11 / 12;
     position: relative;
-    top: 5px;
+    background-color: white;
+
+    .instructions {
+        padding: 0 10px;
+        font-size: 15px;
+        transform: rotate(320deg);
+    }
+
+    .go-word {
+        font-size: 60px;
+        transform: rotate(320deg);
+        color: red;
+    }
+
+    .arrow {
+        font-size: 45px;
+        color: red;
+        position: absolute;
+        bottom: -10px;
+        left: 5px;
+    }
 }
+
+
+
+
 
 .corner {
     .container {
